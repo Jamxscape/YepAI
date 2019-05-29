@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YepAI</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="capture">点击拍照</string>
+    <string name="beauty">颜值</string>
+    <string name="emotion">情绪分析：</string>
+    <string name="idCardLabel">身份证识别</string>
+    <string name="bankCardLabel">银行卡识别</string>
+    <string name="generalLabel">通用文字识别</string>
+</resources>

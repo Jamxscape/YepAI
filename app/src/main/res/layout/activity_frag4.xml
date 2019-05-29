@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    style="@style/result_pop_scroll"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+    <Button
+        android:id="@+id/tencent_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="腾讯聊天"/>
+    <Button
+        android:id="@+id/tencent_joke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:text="腾讯讲笑话"/>
+
+        <Button
+            android:id="@+id/tencent_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="腾讯讲故事"/>
+        <Button
+            android:id="@+id/tencent_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="腾讯天气查询"/>
+        <Button
+            android:id="@+id/tencent_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="邮编查询"/>
+
+        <Button
+            android:id="@+id/tuling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="图灵机器人"/>
+        <Button
+            android:id="@+id/tuling_joke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="图灵讲笑话"/>
+        <Button
+            android:id="@+id/tuling_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="图灵讲故事"/>
+        <Button
+            android:id="@+id/tuling_chengyu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="图灵成语接龙"/>
+        <Button
+            android:id="@+id/tuling_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText"
+            android:text="图灵翻译"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
