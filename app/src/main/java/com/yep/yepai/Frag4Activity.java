@@ -15,6 +15,11 @@ import com.yep.yepai.tencentChat.JokeActivity;
 import com.yep.yepai.tencentChat.StoryActivity;
 import com.yep.yepai.tencentChat.TencentChatActivity;
 import com.yep.yepai.tencentChat.WeatherActivity;
+import com.yep.yepai.tuling.TuLingActivity;
+import com.yep.yepai.tuling.TuLingChengyu;
+import com.yep.yepai.tuling.TuLingCount;
+import com.yep.yepai.tuling.TuLingJoke;
+import com.yep.yepai.tuling.TuLingStory;
 
 public class Frag4Activity extends Fragment {
     private TextView textView;
@@ -119,9 +124,6 @@ public class Frag4Activity extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        /**
-         * TODO 实现底部菜单对应布局控件事件
-         * */
 
     }
 

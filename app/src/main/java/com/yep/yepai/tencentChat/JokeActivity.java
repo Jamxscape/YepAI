@@ -12,7 +12,6 @@ import com.google.gson.Gson;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
-import com.yep.yepai.MapKeyComparator;
 import com.yep.yepai.R;
 
 import java.net.URLEncoder;
@@ -71,7 +70,7 @@ public class JokeActivity extends AppCompatActivity {
     }
 
     public void sendJoke(View view) {
-        final String ques = "讲个笑话";
+        final String ques = "讲个笑话";//传入这个字符串
         new Thread(new Runnable() {
             @Override
             public void run() {

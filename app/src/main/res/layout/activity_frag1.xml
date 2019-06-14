@@ -10,6 +10,7 @@
     android:scrollbars="vertical"
     android:fadingEdge="vertical"
     style="@style/result_pop_scroll"
+    android:background="@drawable/ring"
     >
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -29,7 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/jump_next"
-            tools:ignore="HardcodedText"/>
+            tools:ignore="HardcodedText"
+            android:background="#FFFFFF"/>
 
 
         </LinearLayout>

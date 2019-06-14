@@ -1,6 +1,4 @@
-/*
- * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
- */
+
 package com.yep.yepai.baiduai;
 
 import android.content.Context;

@@ -15,7 +15,9 @@ import com.yep.yepai.bean.FaceppBean;
 
 import java.util.List;
 
-
+/*
+  * All rights belong to YEP
+*/
 public class FacesInfoAdapter extends RecyclerView.Adapter<FacesInfoAdapter.MyViewHolder> {
 
     private Context mContext;

@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/main"
         android:title="主页" />
 
     <item
         android:id="@+id/navigation_chat"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/chat"
         android:title="聊天" />
 
     <item
         android:id="@+id/navigation_account"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/cry"
         android:title="个人" />
 
 </menu>

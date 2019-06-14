@@ -3,6 +3,7 @@ package com.yep.yepai;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // listView = (ListView) findViewById(R.id.mainList);
         BottomNavigationView navigation = findViewById(R.id.navigation);
+        navigation.setItemIconTintList(null);//将bottomNavigation的图标颜色改为彩色
         initFragment();
     }
     private void initFragment() {

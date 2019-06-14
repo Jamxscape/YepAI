@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/h">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +15,8 @@
             android:id="@+id/story"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="回复在这里" />
+            android:hint="回复在这里"
+            android:textSize="20dp"/>
     </ScrollView>
 
     <View
@@ -24,6 +26,7 @@
 
     <Button
         android:id="@+id/tell_story"
+        android:background="#3399FF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="sendStory"

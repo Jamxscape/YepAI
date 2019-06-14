@@ -14,7 +14,8 @@ import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-
+//应用OKHttp3进行网络请求
+//对于发生的网络异常 使用xml文件夹下的network_security_config
 public class MyApplication extends Application {
     @Override
     public void onCreate() {

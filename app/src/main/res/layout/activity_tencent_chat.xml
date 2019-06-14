@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/h">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,7 +16,8 @@
             android:id="@+id/mTv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="回复在这里" />
+            android:hint="回复在这里"
+            android:textSize="20dp"/>
     </ScrollView>
 
     <View
@@ -27,7 +29,7 @@
         android:id="@+id/mEt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="请输入XXX" />
+        android:hint="请输入" />
 
     <Button
         android:layout_width="100dp"
@@ -35,12 +37,15 @@
         android:layout_marginTop="-50dp"
         android:layout_height="wrap_content"
         android:onClick="sendMsg"
-        android:text="发送" />
+        android:text="发送"
+        android:background="#3399FF"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="clearAns"
-        android:text="清空答案" />
+        android:text="清空答案"
+        android:layout_marginTop="5dp"
+        android:background="#3399FF"/>
 
 
 

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/f">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_joke"
@@ -24,7 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="sendJoke"
-            android:text="讲一个笑话" />
+            android:text="讲一个笑话"
+            android:background="#3399FF"/>
     </LinearLayout>
 
 </LinearLayout>

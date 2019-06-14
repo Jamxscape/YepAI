@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/f">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_chengyu"
@@ -24,16 +25,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="输入你的成语" />
+            android:hint="输入你的成语"
+            />
 
         <Button
             android:id="@+id/tuling_get_chengyu"
             android:layout_width="100dp"
             android:layout_height="36dp"
             android:layout_margin="5dp"
-            android:background="#444444"
+            android:background="#3399FF"
             android:text="进入成语接龙"
-            android:textColor="#FFFFFF" />
+            />
     </LinearLayout>
 
 </LinearLayout>

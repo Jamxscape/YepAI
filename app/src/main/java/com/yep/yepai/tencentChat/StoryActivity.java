@@ -12,7 +12,6 @@ import com.google.gson.Gson;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
-import com.yep.yepai.MapKeyComparator;
 import com.yep.yepai.R;
 
 import java.net.URLEncoder;
@@ -71,7 +70,7 @@ public class StoryActivity extends AppCompatActivity {
     }
 
     public void sendStory(View view) {
-        final String ques = "讲个故事";
+        final String ques = "讲个故事";//上传的字符串
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -125,7 +124,9 @@ public class StoryActivity extends AppCompatActivity {
                                         @Override
                                         public void run() {
                                             GetTencent fuck = new Gson().fromJson(response.body(), GetTencent.class);
+                                            //返回的结果
                                             mTv.append("" + fuck.getData().getAnswer()+"\n");
+                                            //添加到TextView
                                             //mTv.append("session : " + fuck.getData().getSession() + "\n");
                                         }
                                     });

@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yep.yepai.TuLingActivity">
+    tools:context="com.yep.yepai.tuling.TuLingActivity"
+    android:background="@drawable/f">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -15,7 +16,8 @@
             android:id="@+id/weather"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="天气显示在这儿" />
+            android:hint="天气显示在这儿"
+            android:textSize="20dp"/>
     </ScrollView>
 
     <View
@@ -25,6 +27,7 @@
 
     <Button
         android:id="@+id/tell_weather"
+        android:background="#3399FF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="选择城市" />

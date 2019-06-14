@@ -24,7 +24,7 @@ import butterknife.ButterKnife;
 
 /**
  * 用于展示面部识别的详情信息
- * @author chaochaowu
+ * All rights belong to YEP
  */
 public class DetailActivity extends AppCompatActivity {
 

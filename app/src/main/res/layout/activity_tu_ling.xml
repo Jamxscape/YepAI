@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/h">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler"
@@ -31,7 +32,7 @@
             android:layout_width="66dp"
             android:layout_height="36dp"
             android:layout_margin="5dp"
-            android:background="#444444"
+            android:background="#3399FF"
             android:text="发送"
             android:textColor="#FFFFFF" />
     </LinearLayout>

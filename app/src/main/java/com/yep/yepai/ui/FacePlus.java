@@ -50,7 +50,7 @@ import butterknife.OnClick;
 
 /**
  * 主界面
- * @author chaochaowu
+ * All rights belong to YEP
  */
 public class FacePlus extends AppCompatActivity implements MainContract.View {
 
@@ -82,7 +82,6 @@ public class FacePlus extends AppCompatActivity implements MainContract.View {
     FacesInfoAdapter mAdapter;
     private List<FaceppBean.FacesBean> faces;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,12 +105,12 @@ public class FacePlus extends AppCompatActivity implements MainContract.View {
         recyclerView.setAdapter(mAdapter);
     }
 
-    @OnClick(R.id.button)
+    @OnClick(R.id.button)//检测拍照功能
     public void onButtonClicked() {
-        takePhoto();
+        takePhoto();//进入拍照界面
     }
 
-    @OnClick(R.id.button2)
+    @OnClick(R.id.button2)//监听选择相册
     public void onButtonClicked2() {
         Intent intent = new Intent("android.intent.action.GET_CONTENT");
         intent.setType("image/*");
@@ -153,7 +152,7 @@ public class FacePlus extends AppCompatActivity implements MainContract.View {
                 case CAMERA_REQUEST_CODE:
                     BitmapFactory.Options options = new BitmapFactory.Options();
                     options.inSampleSize = 2;
-                    photo = BitmapFactory.decodeFile(mTmpFile.getAbsolutePath(), options);
+                    photo = BitmapFactory.decodeFile(mTmpFile.getAbsolutePath(), options);//转换成安卓里bitmap
                     int bitmapDegree = Utils.getBitmapDegree(mTmpFile.getAbsolutePath());
                     if(bitmapDegree != 0){
                         photo = Utils.rotateBitmapByDegree(this.photo, bitmapDegree);

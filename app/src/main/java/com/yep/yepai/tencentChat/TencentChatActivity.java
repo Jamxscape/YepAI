@@ -13,9 +13,7 @@ import com.google.gson.Gson;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
-import com.yep.yepai.MapKeyComparator;
 import com.yep.yepai.R;
-import com.yep.yepai.tencentChat.GetTencent;
 
 import java.net.URLEncoder;
 import java.util.HashMap;

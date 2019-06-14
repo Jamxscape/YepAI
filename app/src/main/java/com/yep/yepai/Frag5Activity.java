@@ -111,10 +111,6 @@ public class Frag5Activity extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        /**
-         * TODO 实现底部菜单对应布局控件事件
-         * */
-
     }
     public void showSexChooseDialog() {
         AlertDialog.Builder builder3 = new AlertDialog.Builder(this.getActivity());// 自定义对话框
@@ -153,11 +149,11 @@ public class Frag5Activity extends Fragment {
             int mDay = dayOfMonth;
             String days;
             days = new StringBuffer().append(mYear).append("年").append(mMonth).append("月").append(mDay).append("日").toString();
-            user_birth.setText(days);
+            user_birth.setText(days);//显示到界面上
             int zodia = (mYear-1996)%12;//生肖的id
             user_zodiac.setText(zodiacArry[zodia]);//设置生肖
             //设置
-            int cons = 0;
+            int cons = 0;//星座字符串标号
             if(mMonth==1&&mDay>=20||mMonth==2&&mDay<=18){
                 cons = 0;
             }
@@ -253,8 +249,8 @@ public class Frag5Activity extends Fragment {
                     sb.append(district.getName()+"\n");
                 }
 
-                user_address.setText("" + sb.toString());
-                user_zipcode.setText(district.getId());
+                user_address.setText("" + sb.toString());//转化成字符串
+                user_zipcode.setText(district.getId());//得到邮编
             }
             @Override
             public void onCancel() {

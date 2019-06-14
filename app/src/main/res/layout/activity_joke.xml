@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/f">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +15,8 @@
             android:id="@+id/joke"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="回复在这里" />
+            android:hint="回复在这里"
+            android:textSize="20dp"/>
     </ScrollView>
 
     <View
@@ -27,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="sendJoke"
-        android:text="讲一个笑话" />
+        android:text="讲一个笑话"
+        android:background="#3399FF"/>
 
 
 

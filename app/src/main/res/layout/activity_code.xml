@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/f">
     <include layout="@layout/activity_titlelayout"/>
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +15,8 @@
             android:id="@+id/code"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="回复在这里" />
+            android:hint="查询结果在这里"
+            android:textSize="20dp"/>
     </ScrollView>
 
     <View
@@ -26,7 +28,9 @@
         android:id="@+id/tell_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="选择城市" />
+        android:text="选择城市"
+        android:textStyle="bold"
+        android:background="#3399FF"/>
 
 
 

@@ -20,7 +20,6 @@ import com.lljjcoder.style.citypickerview.CityPickerView;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.Response;
-import com.yep.yepai.MapKeyComparator;
 import com.yep.yepai.R;
 
 import java.net.URLEncoder;
@@ -99,7 +98,7 @@ public class WeatherActivity extends AppCompatActivity {
                 if (district != null) {
                     sb.append(district.getName());
                 }
-                cityStr = sb.toString();
+                cityStr = sb.toString();//StringBuilder 转换成String
             }
             @Override
             public void onCancel() {

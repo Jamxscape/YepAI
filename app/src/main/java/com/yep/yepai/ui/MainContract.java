@@ -7,7 +7,7 @@ import com.yep.yepai.bean.FaceppBean;
 import java.util.List;
 
 /**
- * @author chaochaowu
+ * All rights belong to YEP@author chaochaowu
  */
 public interface MainContract {
 

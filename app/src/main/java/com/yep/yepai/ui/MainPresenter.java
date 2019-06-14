@@ -22,7 +22,7 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * @author chaochaowu
+ * All rights belong to YEP
  */
 public class MainPresenter implements MainContract.Presenter{
 
